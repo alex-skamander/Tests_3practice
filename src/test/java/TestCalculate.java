@@ -17,7 +17,7 @@ public class TestCalculate extends Assert {
     @Test
     public void TestCalcEmployerContributions() {
         Calculate calculate = new Calculate();
-        assertEquals(18120.0, calculate.CalcEmployerContributions(60000, 22, 5.1, 3.1));
+        assertEquals(18120.0, calculate.CalcEmployerContributions(60000, 22, 5.1, 3.1), 0);
     }
 
 }
