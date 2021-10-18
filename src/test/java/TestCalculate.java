@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class TestCalculate extends Assert {
     @Test
-    public int TestCalculateGetInt() {
+    public void TestCalculateGetInt() {
         Calculate calculate = new Calculate();
         assertEquals(60000, calculate.getInt());
     }
