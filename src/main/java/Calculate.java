@@ -10,8 +10,7 @@ public class Calculate {
     public int getInt(){
         System.out.println("Введите оклад работника:");
         int salary;
-        return 60000;
-        /*if(scanner.hasNextInt()){
+        if(scanner.hasNextInt()){
             salary = scanner.nextInt();
             if (salary <= 0) {
                 System.out.println("Оклад не может быть меньше 0. Попробуйте еще раз.");
@@ -22,6 +21,6 @@ public class Calculate {
             scanner.next();//рекурсия
             salary = getInt();
         }
-        return salary;*/
+        return salary;
     }
 }

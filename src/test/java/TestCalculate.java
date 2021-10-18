@@ -8,4 +8,9 @@ public class TestCalculate extends Assert {
         assertEquals(60000, calculate.getInt());
     }
 
+    public void TestCalcEmployeeSalary() {
+        Calculate calculate = new Calculate();
+        assertEquals(52200, calculate.CalcEmployeeSalary(60000, 13));
+    }
+
 }
